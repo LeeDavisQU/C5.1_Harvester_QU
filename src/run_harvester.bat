@@ -2,7 +2,7 @@
 REM This script activates the Python virtual environment and runs the C5.1_Harvester main script.
 
 REM Set the path to your project folder within My Documents
-set "PROJECT_DIR=%USERPROFILE%\Documents\COUNTER_Harvester\C5.1_Harvester"
+set "PROJECT_DIR=%USERPROFILE%\OneDrive - Quinnipiac University\My Documents\gitHub\COUNTER_Harvester\C5.1_Harvester"
 
 REM --- SCRIPT START ---
 
@@ -47,7 +47,7 @@ echo.
 
 REM Run the main Python script.
 REM Using 'python' is often sufficient after venv activation, but 'python3' is used as requested.
-python3 main.py
+python main.py
 
 echo.
 echo --------------------------------------------
